@@ -50,14 +50,27 @@ rag_project/
    ```bash
    git clone https://github.com/SPpavani/rag_project.git
    cd rag_project
-python -m pip install -r requirements.txt
 
+2. Install dependencies:
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
 
-Install dependencies:
-python -m pip install -r requirements.txt
+3. Run the starter script:
+   ```bash
+   python src/main.py
+   ```
 
+## 📊 Example Use Case
+- Load company policy documents (PDF/CSV).
+- Chunk and embed them into ChromaDB.
+- Ask questions like:  
+  *“How does the company ensure responsible AI use?”*  
+- Get precise, context-aware answers from the RAG pipeline.
 
-Run the starter script:
-python src/main.py
-
-
+## 🎯 Why This Project Matters
+This repo is designed to:
+- Demonstrate **hands-on RAG implementation**.
+- Show **awareness of modern AI workflows**.
+- Impress recruiters/interviewers with a **structured, enterprise-grade project**.
+```
