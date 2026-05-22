@@ -1,21 +1,6 @@
-# Core Python version
-python==3.11.9
-
-# RAG pipeline essentials
 langchain==0.2.6
 chromadb==0.5.3
-openai==1.30.1
-
-# Data handling
-pandas==2.2.2
-numpy==1.26.4
-
-# PDF ingestion
-fpdf2==2.7.9
-
-# Utilities
-tqdm==4.66.2
-requests==2.31.0
-
-# Testing
-pytest==8.2.0
+sentence-transformers==2.7.0
+fpdf2==2.7.8
+pypdf==4.2.0
+python-dotenv==1.0.1
